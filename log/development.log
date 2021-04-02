@@ -193,3 +193,49 @@ Processing by HomeController#about as HTML
 Completed 200 OK in 9ms (Views: 8.1ms | Allocations: 3496)
 
 
+Started GET "/home/about" for ::1 at 2021-04-02 06:51:13 -0400
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.3ms | Allocations: 288)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 112)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 6046)
+Completed 200 OK in 38ms (Views: 23.3ms | ActiveRecord: 0.0ms | Allocations: 9196)
+
+
+Started GET "/home/about" for ::1 at 2021-04-02 06:51:41 -0400
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 4.4ms | Allocations: 2428)
+  Rendered layout layouts/application.html.erb (Duration: 72.6ms | Allocations: 5828)
+Completed 200 OK in 86ms (Views: 84.5ms | ActiveRecord: 0.0ms | Allocations: 7029)
+
+
+Started GET "/home/about" for ::1 at 2021-04-02 06:53:09 -0400
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 140)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 3542)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 4747)
+
+
+Started GET "/home/about" for ::1 at 2021-04-02 06:55:07 -0400
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.4ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 140)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3546)
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 4759)
+
+
