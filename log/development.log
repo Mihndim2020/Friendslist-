@@ -697,3 +697,93 @@ Migrating to CreateFriends (20210404164422)
   [1m[36mTRANSACTION (10.6ms)[0m  [1m[36mcommit transaction[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/home/about" for ::1 at 2021-04-04 13:07:48 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.4ms | Allocations: 288)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.1ms | Allocations: 308)
+  Rendered layout layouts/application.html.erb (Duration: 176.8ms | Allocations: 21977)
+Completed 200 OK in 195ms (Views: 182.4ms | ActiveRecord: 0.0ms | Allocations: 25142)
+
+
+Started GET "/home/about" for ::1 at 2021-04-04 13:07:52 -0400
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.2ms | Allocations: 97)
+  Rendered layout layouts/application.html.erb (Duration: 51.4ms | Allocations: 3135)
+Completed 200 OK in 58ms (Views: 54.8ms | ActiveRecord: 0.0ms | Allocations: 3581)
+
+
+Started GET "/" for ::1 at 2021-04-04 13:07:53 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 97)
+  Rendered layout layouts/application.html.erb (Duration: 61.6ms | Allocations: 3851)
+Completed 200 OK in 69ms (Views: 65.0ms | ActiveRecord: 0.0ms | Allocations: 4430)
+
+
+Started GET "/home/about" for ::1 at 2021-04-04 13:07:53 -0400
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 97)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 3135)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 3580)
+
+
+Started GET "/" for ::1 at 2021-04-04 13:07:55 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 97)
+  Rendered layout layouts/application.html.erb (Duration: 51.9ms | Allocations: 3139)
+Completed 200 OK in 60ms (Views: 54.7ms | ActiveRecord: 0.0ms | Allocations: 3583)
+
+
+Started GET "/" for ::1 at 2021-04-04 13:11:41 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 97)
+  Rendered layout layouts/application.html.erb (Duration: 39.2ms | Allocations: 11915)
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.0ms | Allocations: 12356)
+
+
+Started GET "/" for ::1 at 2021-04-04 13:11:43 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 97)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3141)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 3587)
+
+
+Started GET "/" for ::1 at 2021-04-04 13:11:54 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 97)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 10696)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms | Allocations: 11142)
+
+
