@@ -2197,3 +2197,1780 @@ Migrating to DeviseCreateUsers (20210405104331)
   [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
   [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2021-04-05 06:59:17 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 574)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 637)
+  Rendered layout layouts/application.html.erb (Duration: 32.8ms | Allocations: 7670)
+Completed 200 OK in 57ms (Views: 40.7ms | ActiveRecord: 0.0ms | Allocations: 11454)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-04-05 06:59:21 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.2ms | Allocations: 223)
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 538)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 33.4ms | Allocations: 8258)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 252)
+  Rendered layout layouts/application.html.erb (Duration: 40.6ms | Allocations: 11452)
+Completed 200 OK in 92ms (Views: 50.0ms | ActiveRecord: 1.5ms | Allocations: 18204)
+
+
+Started GET "/users/sign_out" for ::1 at 2021-04-05 06:59:23 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/users/sign_up" for ::1 at 2021-04-05 06:59:29 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.2ms | Allocations: 43)
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1060)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.9ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 49.7ms | Allocations: 4269)
+Completed 200 OK in 55ms (Views: 53.4ms | ActiveRecord: 0.0ms | Allocations: 4972)
+
+
+Started GET "/users/edit" for ::1 at 2021-04-05 06:59:30 -0400
+Processing by Devise::RegistrationsController#edit as HTML
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.0ms | Allocations: 259)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 06:59:31 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 234)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.9ms | Allocations: 2029)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 252)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 5274)
+Completed 200 OK in 34ms (Views: 28.7ms | ActiveRecord: 0.0ms | Allocations: 7650)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-04-05 06:59:33 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 43)
+  Rendered devise/shared/_links.html.erb (Duration: 1.3ms | Allocations: 105)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 23.7ms | Allocations: 1060)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.4ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 61.0ms | Allocations: 4257)
+Completed 200 OK in 72ms (Views: 67.0ms | ActiveRecord: 0.0ms | Allocations: 4867)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 06:59:35 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 14.1ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.2ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 44.7ms | Allocations: 4216)
+Completed 200 OK in 51ms (Views: 47.3ms | ActiveRecord: 0.0ms | Allocations: 4894)
+
+
+Started GET "/friends/new" for ::1 at 2021-04-05 06:59:36 -0400
+Processing by FriendsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (Duration: 10.4ms | Allocations: 2025)
+  Rendered friends/new.html.erb within layouts/application (Duration: 12.8ms | Allocations: 2504)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 242)
+  Rendered layout layouts/application.html.erb (Duration: 24.7ms | Allocations: 5724)
+Completed 200 OK in 68ms (Views: 29.0ms | ActiveRecord: 3.5ms | Allocations: 11321)
+
+
+Started GET "/friends" for ::1 at 2021-04-05 06:59:38 -0400
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (1.0ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  ↳ app/views/friends/index.html.erb:16
+  Rendered friends/index.html.erb within layouts/application (Duration: 35.2ms | Allocations: 1860)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 68.5ms | Allocations: 5044)
+Completed 200 OK in 75ms (Views: 69.7ms | ActiveRecord: 1.0ms | Allocations: 5688)
+
+
+Started GET "/home/about" for ::1 at 2021-04-05 06:59:40 -0400
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.8ms | Allocations: 102)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.3ms | Allocations: 235)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 3301)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 3879)
+
+
+Started GET "/friends" for ::1 at 2021-04-05 06:59:41 -0400
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (0.7ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  ↳ app/views/friends/index.html.erb:16
+  Rendered friends/index.html.erb within layouts/application (Duration: 21.4ms | Allocations: 1412)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 57.5ms | Allocations: 4596)
+Completed 200 OK in 64ms (Views: 60.3ms | ActiveRecord: 0.7ms | Allocations: 5062)
+
+
+Started GET "/friends/new" for ::1 at 2021-04-05 06:59:42 -0400
+Processing by FriendsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (Duration: 20.8ms | Allocations: 1235)
+  Rendered friends/new.html.erb within layouts/application (Duration: 25.0ms | Allocations: 1355)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 220)
+  Rendered layout layouts/application.html.erb (Duration: 52.1ms | Allocations: 4526)
+Completed 200 OK in 58ms (Views: 55.3ms | ActiveRecord: 0.0ms | Allocations: 4997)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 06:59:43 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.6ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 13.2ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 72.0ms | Allocations: 4208)
+Completed 200 OK in 80ms (Views: 74.6ms | ActiveRecord: 0.0ms | Allocations: 4893)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-04-05 06:59:45 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 43)
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 105)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1060)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 4271)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 4876)
+
+
+Started GET "/users/sign_out" for ::1 at 2021-04-05 06:59:46 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/users/sign_up" for ::1 at 2021-04-05 06:59:49 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 43)
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 105)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1100)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 4945)
+Completed 200 OK in 21ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 5544)
+
+
+Started GET "/users/edit" for ::1 at 2021-04-05 06:59:51 -0400
+Processing by Devise::RegistrationsController#edit as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 230)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 06:59:51 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 222)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 4206)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.0ms | Allocations: 4883)
+
+
+Started GET "/users/sign_out" for ::1 at 2021-04-05 07:03:51 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/users/sign_out" for ::1 at 2021-04-05 07:03:53 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/users/sign_out" for ::1 at 2021-04-05 07:04:32 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/friends" for ::1 at 2021-04-05 07:04:52 -0400
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  [1m[36mFriend Load (0.2ms)[0m  [1m[34mSELECT "friends".* FROM "friends"[0m
+  ↳ app/views/friends/index.html.erb:16
+  Rendered friends/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1731)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 543)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 5654)
+Completed 200 OK in 33ms (Views: 29.3ms | ActiveRecord: 0.2ms | Allocations: 6991)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:04:55 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 5.7ms | Allocations: 533)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 23.8ms | Allocations: 1853)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 260)
+  Rendered layout layouts/application.html.erb (Duration: 52.2ms | Allocations: 5147)
+Completed 200 OK in 75ms (Views: 70.1ms | ActiveRecord: 0.0ms | Allocations: 6793)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-04-05 07:04:57 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 3.5ms | Allocations: 211)
+  Rendered devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 113)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 25.0ms | Allocations: 1733)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.8ms | Allocations: 260)
+  Rendered layout layouts/application.html.erb (Duration: 62.9ms | Allocations: 5056)
+Completed 200 OK in 84ms (Views: 79.0ms | ActiveRecord: 0.0ms | Allocations: 6777)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-04-05 07:04:58 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms | Allocations: 452)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:04:58 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.1ms | Allocations: 279)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 3418)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 4496)
+
+
+Started GET "/users/edit" for ::1 at 2021-04-05 07:05:03 -0400
+Processing by Devise::RegistrationsController#edit as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 237)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:05:03 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 8.1ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 4212)
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 4891)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-04-05 07:05:04 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms | Allocations: 401)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:05:04 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 241)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 3242)
+Completed 200 OK in 21ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 3697)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:06:32 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 6.9ms | Allocations: 533)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 29.2ms | Allocations: 1854)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.1ms | Allocations: 553)
+  Rendered layout layouts/application.html.erb (Duration: 73.1ms | Allocations: 6470)
+Completed 200 OK in 95ms (Views: 91.0ms | ActiveRecord: 0.0ms | Allocations: 8339)
+
+
+Started POST "/users/sign_in" for ::1 at 2021-04-05 07:06:47 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"mihndim2016@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "mihndim2016@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 60ms (ActiveRecord: 0.7ms | Allocations: 4440)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"mihndim2016@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1008)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.8ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 4192)
+Completed 200 OK in 288ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 5834)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:06:54 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.8ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 45.3ms | Allocations: 4226)
+Completed 200 OK in 52ms (Views: 48.1ms | ActiveRecord: 0.0ms | Allocations: 4898)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-04-05 07:06:55 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 3.5ms | Allocations: 211)
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 113)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 22.7ms | Allocations: 1736)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.0ms | Allocations: 260)
+  Rendered layout layouts/application.html.erb (Duration: 57.1ms | Allocations: 5029)
+Completed 200 OK in 72ms (Views: 68.7ms | ActiveRecord: 0.0ms | Allocations: 6249)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-04-05 07:06:59 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms | Allocations: 392)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:06:59 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 279)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 3417)
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 4499)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-04-05 07:07:01 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 43)
+  Rendered devise/shared/_links.html.erb (Duration: 1.3ms | Allocations: 105)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 15.7ms | Allocations: 1060)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.7ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 48.4ms | Allocations: 4263)
+Completed 200 OK in 56ms (Views: 52.2ms | ActiveRecord: 0.0ms | Allocations: 4876)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:07:03 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 12.4ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.9ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 44.2ms | Allocations: 4212)
+Completed 200 OK in 51ms (Views: 46.8ms | ActiveRecord: 0.0ms | Allocations: 4890)
+
+
+Started GET "/friends/new" for ::1 at 2021-04-05 07:07:04 -0400
+Processing by FriendsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (Duration: 22.2ms | Allocations: 1696)
+  Rendered friends/new.html.erb within layouts/application (Duration: 28.7ms | Allocations: 2066)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.4ms | Allocations: 250)
+  Rendered layout layouts/application.html.erb (Duration: 71.4ms | Allocations: 5896)
+Completed 200 OK in 86ms (Views: 81.8ms | ActiveRecord: 0.0ms | Allocations: 6998)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:07:05 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.9ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 13.4ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.4ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 48.9ms | Allocations: 4212)
+Completed 200 OK in 58ms (Views: 52.2ms | ActiveRecord: 0.0ms | Allocations: 4890)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-04-05 07:07:06 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 43)
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 105)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 18.9ms | Allocations: 1060)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.6ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 54.5ms | Allocations: 4263)
+Completed 200 OK in 62ms (Views: 57.7ms | ActiveRecord: 0.0ms | Allocations: 4873)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-04-05 07:07:08 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 399)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:07:08 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 241)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3242)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 3698)
+
+
+Started GET "/users/edit" for ::1 at 2021-04-05 07:07:10 -0400
+Processing by Devise::RegistrationsController#edit as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 237)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:07:10 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 19.6ms | Allocations: 1679)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.7ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 36.3ms | Allocations: 4896)
+Completed 200 OK in 49ms (Views: 40.3ms | ActiveRecord: 0.0ms | Allocations: 5576)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-04-05 07:07:11 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms | Allocations: 399)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:07:11 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 241)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 3256)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 3710)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-04-05 07:07:12 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 43)
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 105)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 15.9ms | Allocations: 1060)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.2ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 58.4ms | Allocations: 4263)
+Completed 200 OK in 65ms (Views: 61.5ms | ActiveRecord: 0.0ms | Allocations: 4874)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:07:13 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.6ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 13.5ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.8ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 41.2ms | Allocations: 4212)
+Completed 200 OK in 56ms (Views: 44.0ms | ActiveRecord: 0.0ms | Allocations: 4889)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-04-05 07:07:46 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms | Allocations: 400)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:07:46 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 241)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3242)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 3696)
+
+
+Started GET "/users/edit" for ::1 at 2021-04-05 07:07:50 -0400
+Processing by Devise::RegistrationsController#edit as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 237)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:07:50 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 4212)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 4889)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-04-05 07:07:51 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 399)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:07:51 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 241)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 3242)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 3696)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-04-05 07:07:53 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 43)
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 105)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 12.9ms | Allocations: 1060)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.5ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 42.1ms | Allocations: 4263)
+Completed 200 OK in 48ms (Views: 44.6ms | ActiveRecord: 0.0ms | Allocations: 4873)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:07:54 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.8ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 14.3ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.8ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 54.3ms | Allocations: 4212)
+Completed 200 OK in 65ms (Views: 59.8ms | ActiveRecord: 0.0ms | Allocations: 4890)
+
+
+Started GET "/friends/new" for ::1 at 2021-04-05 07:07:55 -0400
+Processing by FriendsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (Duration: 21.0ms | Allocations: 1235)
+  Rendered friends/new.html.erb within layouts/application (Duration: 23.0ms | Allocations: 1355)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.6ms | Allocations: 226)
+  Rendered layout layouts/application.html.erb (Duration: 58.5ms | Allocations: 4546)
+Completed 200 OK in 67ms (Views: 62.8ms | ActiveRecord: 0.0ms | Allocations: 5027)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:07:57 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.7ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 20.4ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 36.7ms | Allocations: 4212)
+Completed 200 OK in 52ms (Views: 40.0ms | ActiveRecord: 0.0ms | Allocations: 4891)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-04-05 07:07:58 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 43)
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 105)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 14.0ms | Allocations: 1060)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.4ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 53.1ms | Allocations: 4274)
+Completed 200 OK in 65ms (Views: 56.6ms | ActiveRecord: 0.0ms | Allocations: 4884)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-04-05 07:07:59 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms | Allocations: 401)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:07:59 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.7ms | Allocations: 241)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 3242)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 3696)
+
+
+Started GET "/users/edit" for ::1 at 2021-04-05 07:07:59 -0400
+Processing by Devise::RegistrationsController#edit as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 237)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:07:59 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 4212)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 4889)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:08:01 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.8ms | Allocations: 241)
+  Rendered layout layouts/application.html.erb (Duration: 38.3ms | Allocations: 3242)
+Completed 200 OK in 46ms (Views: 42.1ms | ActiveRecord: 0.0ms | Allocations: 3699)
+
+
+Started GET "/users/edit" for ::1 at 2021-04-05 07:08:39 -0400
+Processing by Devise::RegistrationsController#edit as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 237)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:08:39 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 4889)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 5566)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-04-05 07:08:44 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 400)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:08:44 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 241)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 3242)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 3696)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-04-05 07:08:45 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 43)
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 105)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 13.1ms | Allocations: 1063)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.5ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 55.6ms | Allocations: 4266)
+Completed 200 OK in 63ms (Views: 59.1ms | ActiveRecord: 0.0ms | Allocations: 4877)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:08:46 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.9ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 15.8ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.3ms | Allocations: 228)
+  Rendered layout layouts/application.html.erb (Duration: 52.0ms | Allocations: 4223)
+Completed 200 OK in 59ms (Views: 54.7ms | ActiveRecord: 0.0ms | Allocations: 4902)
+
+
+Started GET "/friends/new" for ::1 at 2021-04-05 07:08:47 -0400
+Processing by FriendsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (Duration: 14.2ms | Allocations: 1235)
+  Rendered friends/new.html.erb within layouts/application (Duration: 16.1ms | Allocations: 1355)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.5ms | Allocations: 226)
+  Rendered layout layouts/application.html.erb (Duration: 53.5ms | Allocations: 4532)
+Completed 200 OK in 59ms (Views: 56.1ms | ActiveRecord: 0.0ms | Allocations: 5011)
+
+
+Started GET "/friends/new" for ::1 at 2021-04-05 07:14:47 -0400
+Processing by FriendsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (Duration: 5.2ms | Allocations: 1696)
+  Rendered friends/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 2069)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 1360)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 6788)
+Completed 500 Internal Server Error in 30ms (Allocations: 8097)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+  <%= link_to 'Friends App', root_path, class:"navbar-brand" %>
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+        <%= link_to 'About Us', home_about_path, class:"nav-link"%>             
+        </li>
+        <li class="nav-item">
+        <%= link_to 'Friends', friends_path, class:"nav-link"%>             
+        </li>
+        <li class="nav-item">
+        <%= link_to 'Add Friend', new_friend_path, class:"nav-link"%>             
+        </li>
+
+        <% user_signed_in? %>
+
+        <li class="nav-item">
+        <%= link_to 'Sign Out', destroy_user_session_path, method: :delete, class:"nav-link"%>             
+        </li>
+        <li class="nav-item">
+        <%= link_to 'Edit Profile', edit_user_registration_path, class:"nav-link"%>             
+        </li>
+
+        <%else%>
+ 
+        <li class="nav-item">
+        <%= link_to 'Sign In', new_user_session_path, class:"nav-link"%>             
+        </li>
+        <li class="nav-item">
+        <%= link_to 'Sign Up', new_user_registration_path, class:"nav-link"%>             
+        </li>
+
+        <%end%>
+
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+2:      <div class="container-fluid">
+3:      <%= link_to 'Friends App', root_path, class:"navbar-brand" %>
+4:       
+5:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+6:          <span class="navbar-toggler-icon"></span>
+7:        </button>
+8:        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+9:          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+10:            <li class="nav-item">
+11:            <%= link_to 'About Us', home_about_path, class:"nav-link"%>             
+12:            </li>
+13:            <li class="nav-item">
+14:            <%= link_to 'Friends', friends_path, class:"nav-link"%>             
+15:            </li>
+16:            <li class="nav-item">
+17:            <%= link_to 'Add Friend', new_friend_path, class:"nav-link"%>             
+18:            </li>
+19:    
+20:            <% user_signed_in? %>
+21:    
+22:            <li class="nav-item">
+23:            <%= link_to 'Sign Out', destroy_user_session_path, method: :delete, class:"nav-link"%>             
+24:            </li>
+25:            <li class="nav-item">
+26:            <%= link_to 'Edit Profile', edit_user_registration_path, class:"nav-link"%>             
+27:            </li>
+28:    
+29:            <%else%>
+30:     
+31:            <li class="nav-item">
+32:            <%= link_to 'Sign In', new_user_session_path, class:"nav-link"%>             
+33:            </li>
+34:            <li class="nav-item">
+35:            <%= link_to 'Sign Up', new_user_registration_path, class:"nav-link"%>             
+36:            </li>
+37:    
+38:            <%end%>
+39:    
+40:          </ul>
+41:          <form class="d-flex">
+42:            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+43:            <button class="btn btn-outline-success" type="submit">Search</button>
+44:          </form>
+45:        </div>
+46:      </div>
+47:    </nav>
+  
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/layouts/application.html.erb:22
+Started GET "/friends/new" for ::1 at 2021-04-05 07:14:59 -0400
+Processing by FriendsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (Duration: 14.0ms | Allocations: 1235)
+  Rendered friends/new.html.erb within layouts/application (Duration: 15.5ms | Allocations: 1355)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.7ms | Allocations: 1340)
+  Rendered layout layouts/application.html.erb (Duration: 29.6ms | Allocations: 5659)
+Completed 500 Internal Server Error in 33ms (Allocations: 6098)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+  <%= link_to 'Friends App', root_path, class:"navbar-brand" %>
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+        <%= link_to 'About Us', home_about_path, class:"nav-link"%>             
+        </li>
+        <li class="nav-item">
+        <%= link_to 'Friends', friends_path, class:"nav-link"%>             
+        </li>
+        <li class="nav-item">
+        <%= link_to 'Add Friend', new_friend_path, class:"nav-link"%>             
+        </li>
+
+        <% user_signed_in? %>
+
+        <li class="nav-item">
+        <%= link_to 'Sign Out', destroy_user_session_path, method: :delete, class:"nav-link"%>             
+        </li>
+        <li class="nav-item">
+        <%= link_to 'Edit Profile', edit_user_registration_path, class:"nav-link"%>             
+        </li>
+
+        <%else%>
+ 
+        <li class="nav-item">
+        <%= link_to 'Sign In', new_user_session_path, class:"nav-link"%>             
+        </li>
+        <li class="nav-item">
+        <%= link_to 'Sign Up', new_user_registration_path, class:"nav-link"%>             
+        </li>
+
+        <%end%>
+
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+2:      <div class="container-fluid">
+3:      <%= link_to 'Friends App', root_path, class:"navbar-brand" %>
+4:       
+5:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+6:          <span class="navbar-toggler-icon"></span>
+7:        </button>
+8:        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+9:          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+10:            <li class="nav-item">
+11:            <%= link_to 'About Us', home_about_path, class:"nav-link"%>             
+12:            </li>
+13:            <li class="nav-item">
+14:            <%= link_to 'Friends', friends_path, class:"nav-link"%>             
+15:            </li>
+16:            <li class="nav-item">
+17:            <%= link_to 'Add Friend', new_friend_path, class:"nav-link"%>             
+18:            </li>
+19:    
+20:            <% user_signed_in? %>
+21:    
+22:            <li class="nav-item">
+23:            <%= link_to 'Sign Out', destroy_user_session_path, method: :delete, class:"nav-link"%>             
+24:            </li>
+25:            <li class="nav-item">
+26:            <%= link_to 'Edit Profile', edit_user_registration_path, class:"nav-link"%>             
+27:            </li>
+28:    
+29:            <%else%>
+30:     
+31:            <li class="nav-item">
+32:            <%= link_to 'Sign In', new_user_session_path, class:"nav-link"%>             
+33:            </li>
+34:            <li class="nav-item">
+35:            <%= link_to 'Sign Up', new_user_registration_path, class:"nav-link"%>             
+36:            </li>
+37:    
+38:            <%end%>
+39:    
+40:          </ul>
+41:          <form class="d-flex">
+42:            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+43:            <button class="btn btn-outline-success" type="submit">Search</button>
+44:          </form>
+45:        </div>
+46:      </div>
+47:    </nav>
+  
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/layouts/application.html.erb:22
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:15:04 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 533)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1853)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 1372)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 6266)
+Completed 500 Internal Server Error in 27ms (Allocations: 7872)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+  <%= link_to 'Friends App', root_path, class:"navbar-brand" %>
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+        <%= link_to 'About Us', home_about_path, class:"nav-link"%>             
+        </li>
+        <li class="nav-item">
+        <%= link_to 'Friends', friends_path, class:"nav-link"%>             
+        </li>
+        <li class="nav-item">
+        <%= link_to 'Add Friend', new_friend_path, class:"nav-link"%>             
+        </li>
+
+        <% user_signed_in? %>
+
+        <li class="nav-item">
+        <%= link_to 'Sign Out', destroy_user_session_path, method: :delete, class:"nav-link"%>             
+        </li>
+        <li class="nav-item">
+        <%= link_to 'Edit Profile', edit_user_registration_path, class:"nav-link"%>             
+        </li>
+
+        <%else%>
+ 
+        <li class="nav-item">
+        <%= link_to 'Sign In', new_user_session_path, class:"nav-link"%>             
+        </li>
+        <li class="nav-item">
+        <%= link_to 'Sign Up', new_user_registration_path, class:"nav-link"%>             
+        </li>
+
+        <%end%>
+
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+2:      <div class="container-fluid">
+3:      <%= link_to 'Friends App', root_path, class:"navbar-brand" %>
+4:       
+5:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+6:          <span class="navbar-toggler-icon"></span>
+7:        </button>
+8:        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+9:          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+10:            <li class="nav-item">
+11:            <%= link_to 'About Us', home_about_path, class:"nav-link"%>             
+12:            </li>
+13:            <li class="nav-item">
+14:            <%= link_to 'Friends', friends_path, class:"nav-link"%>             
+15:            </li>
+16:            <li class="nav-item">
+17:            <%= link_to 'Add Friend', new_friend_path, class:"nav-link"%>             
+18:            </li>
+19:    
+20:            <% user_signed_in? %>
+21:    
+22:            <li class="nav-item">
+23:            <%= link_to 'Sign Out', destroy_user_session_path, method: :delete, class:"nav-link"%>             
+24:            </li>
+25:            <li class="nav-item">
+26:            <%= link_to 'Edit Profile', edit_user_registration_path, class:"nav-link"%>             
+27:            </li>
+28:    
+29:            <%else%>
+30:     
+31:            <li class="nav-item">
+32:            <%= link_to 'Sign In', new_user_session_path, class:"nav-link"%>             
+33:            </li>
+34:            <li class="nav-item">
+35:            <%= link_to 'Sign Up', new_user_registration_path, class:"nav-link"%>             
+36:            </li>
+37:    
+38:            <%end%>
+39:    
+40:          </ul>
+41:          <form class="d-flex">
+42:            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+43:            <button class="btn btn-outline-success" type="submit">Search</button>
+44:          </form>
+45:        </div>
+46:      </div>
+47:    </nav>
+  
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/layouts/application.html.erb:22
+Started GET "/" for ::1 at 2021-04-05 07:15:11 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.9ms | Allocations: 1337)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 4483)
+Completed 500 Internal Server Error in 11ms (Allocations: 5532)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+  <%= link_to 'Friends App', root_path, class:"navbar-brand" %>
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+        <%= link_to 'About Us', home_about_path, class:"nav-link"%>             
+        </li>
+        <li class="nav-item">
+        <%= link_to 'Friends', friends_path, class:"nav-link"%>             
+        </li>
+        <li class="nav-item">
+        <%= link_to 'Add Friend', new_friend_path, class:"nav-link"%>             
+        </li>
+
+        <% user_signed_in? %>
+
+        <li class="nav-item">
+        <%= link_to 'Sign Out', destroy_user_session_path, method: :delete, class:"nav-link"%>             
+        </li>
+        <li class="nav-item">
+        <%= link_to 'Edit Profile', edit_user_registration_path, class:"nav-link"%>             
+        </li>
+
+        <%else%>
+ 
+        <li class="nav-item">
+        <%= link_to 'Sign In', new_user_session_path, class:"nav-link"%>             
+        </li>
+        <li class="nav-item">
+        <%= link_to 'Sign Up', new_user_registration_path, class:"nav-link"%>             
+        </li>
+
+        <%end%>
+
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+):
+1:    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+2:      <div class="container-fluid">
+3:      <%= link_to 'Friends App', root_path, class:"navbar-brand" %>
+4:       
+5:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+6:          <span class="navbar-toggler-icon"></span>
+7:        </button>
+8:        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+9:          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+10:            <li class="nav-item">
+11:            <%= link_to 'About Us', home_about_path, class:"nav-link"%>             
+12:            </li>
+13:            <li class="nav-item">
+14:            <%= link_to 'Friends', friends_path, class:"nav-link"%>             
+15:            </li>
+16:            <li class="nav-item">
+17:            <%= link_to 'Add Friend', new_friend_path, class:"nav-link"%>             
+18:            </li>
+19:    
+20:            <% user_signed_in? %>
+21:    
+22:            <li class="nav-item">
+23:            <%= link_to 'Sign Out', destroy_user_session_path, method: :delete, class:"nav-link"%>             
+24:            </li>
+25:            <li class="nav-item">
+26:            <%= link_to 'Edit Profile', edit_user_registration_path, class:"nav-link"%>             
+27:            </li>
+28:    
+29:            <%else%>
+30:     
+31:            <li class="nav-item">
+32:            <%= link_to 'Sign In', new_user_session_path, class:"nav-link"%>             
+33:            </li>
+34:            <li class="nav-item">
+35:            <%= link_to 'Sign Up', new_user_registration_path, class:"nav-link"%>             
+36:            </li>
+37:    
+38:            <%end%>
+39:    
+40:          </ul>
+41:          <form class="d-flex">
+42:            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+43:            <button class="btn btn-outline-success" type="submit">Search</button>
+44:          </form>
+45:        </div>
+46:      </div>
+47:    </nav>
+  
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/home/_header.html.erb:29: else without rescue is useless
+app/views/home/_header.html.erb:49: syntax error, unexpected `end', expecting end-of-input
+app/views/layouts/application.html.erb:22
+Started GET "/" for ::1 at 2021-04-05 07:17:13 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.4ms | Allocations: 643)
+  Rendered layout layouts/application.html.erb (Duration: 23.3ms | Allocations: 4131)
+Completed 200 OK in 31ms (Views: 27.5ms | Allocations: 5440)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:17:15 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 4.2ms | Allocations: 533)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 18.3ms | Allocations: 1855)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.2ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 51.1ms | Allocations: 5143)
+Completed 200 OK in 69ms (Views: 62.5ms | Allocations: 6792)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-04-05 07:17:17 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 3.4ms | Allocations: 211)
+  Rendered devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 113)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 24.5ms | Allocations: 1733)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.2ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 62.0ms | Allocations: 5052)
+Completed 200 OK in 79ms (Views: 74.1ms | Allocations: 6276)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:17:18 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 3.6ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 15.3ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.9ms | Allocations: 218)
+  Rendered layout layouts/application.html.erb (Duration: 63.3ms | Allocations: 4202)
+Completed 200 OK in 78ms (Views: 67.7ms | Allocations: 4877)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:19:06 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.8ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 14.8ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.1ms | Allocations: 218)
+  Rendered layout layouts/application.html.erb (Duration: 50.2ms | Allocations: 4202)
+Completed 200 OK in 58ms (Views: 53.8ms | Allocations: 4878)
+
+
+Started POST "/users/sign_in" for ::1 at 2021-04-05 07:19:15 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"mihndim2016@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "mihndim2016@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 14ms (ActiveRecord: 1.2ms | Allocations: 2503)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"mihndim2016@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 999)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 192)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 4183)
+Completed 200 OK in 278ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 4811)
+
+
+Started POST "/users/sign_in" for ::1 at 2021-04-05 07:19:19 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"mihndim2016@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.0ms | Allocations: 376)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"mihndim2016@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1001)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 192)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 4185)
+Completed 200 OK in 27ms (Views: 23.2ms | ActiveRecord: 0.0ms | Allocations: 4765)
+
+
+Started POST "/users/sign_in" for ::1 at 2021-04-05 07:19:31 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"mihndim2016@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "mihndim2016@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.3ms | Allocations: 1444)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"mihndim2016@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1001)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 192)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 4196)
+Completed 200 OK in 275ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 4806)
+
+
+Started POST "/users/sign_in" for ::1 at 2021-04-05 07:19:38 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"mihndim2016@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "mihndim2016@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 22ms (ActiveRecord: 0.7ms | Allocations: 1439)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"mihndim2016@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1001)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 192)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 4196)
+Completed 200 OK in 284ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 4810)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-04-05 07:19:42 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 43)
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 105)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 12.2ms | Allocations: 1060)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.6ms | Allocations: 218)
+  Rendered layout layouts/application.html.erb (Duration: 49.9ms | Allocations: 4264)
+Completed 200 OK in 59ms (Views: 53.4ms | ActiveRecord: 0.0ms | Allocations: 4868)
+
+
+Started POST "/users" for ::1 at 2021-04-05 07:19:56 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"mihndim2016@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "mihndim2016@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "mihndim2016@gmail.com"], ["encrypted_password", "$2a$12$qgeq1QCDUoykreIAmsy9duwu86osf4zbl3AY7WKe4RWcRVMW2Ghe6"], ["created_at", "2021-04-05 11:19:56.709820"], ["updated_at", "2021-04-05 11:19:56.709820"]]
+  [1m[36mTRANSACTION (13.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/users/edit
+Completed 302 Found in 336ms (ActiveRecord: 14.2ms | Allocations: 9459)
+
+
+Started GET "/users/edit" for ::1 at 2021-04-05 07:19:56 -0400
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 43)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 194)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 4958)
+Completed 200 OK in 16ms (Views: 12.9ms | ActiveRecord: 0.2ms | Allocations: 6733)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-04-05 07:20:09 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 34ms (ActiveRecord: 0.3ms | Allocations: 4380)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:20:09 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 258)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 3268)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 3720)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:20:11 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 11.9ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.0ms | Allocations: 218)
+  Rendered layout layouts/application.html.erb (Duration: 46.4ms | Allocations: 4202)
+Completed 200 OK in 53ms (Views: 48.9ms | ActiveRecord: 0.0ms | Allocations: 4878)
+
+
+Started POST "/users/sign_in" for ::1 at 2021-04-05 07:20:13 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"mihndim2016@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "mihndim2016@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 286ms (ActiveRecord: 0.4ms | Allocations: 2728)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:20:13 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:20
+  Rendered home/_header.html.erb (Duration: 7.6ms | Allocations: 1095)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 4113)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.1ms | Allocations: 4568)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-04-05 07:20:22 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 0.5ms | Allocations: 1760)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:20:22 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 258)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 3276)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 3727)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:20:24 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.7ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 12.6ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.2ms | Allocations: 218)
+  Rendered layout layouts/application.html.erb (Duration: 48.4ms | Allocations: 4213)
+Completed 200 OK in 57ms (Views: 51.6ms | ActiveRecord: 0.0ms | Allocations: 4889)
+
+
+Started POST "/users/sign_in" for ::1 at 2021-04-05 07:20:26 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"mihndim2016@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "mihndim2016@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 309ms (ActiveRecord: 0.8ms | Allocations: 2361)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:20:26 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:20
+  Rendered home/_header.html.erb (Duration: 2.6ms | Allocations: 1087)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 4094)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.1ms | Allocations: 4548)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:21:57 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 110)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:20
+  Rendered home/_header.html.erb (Duration: 8.4ms | Allocations: 1519)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 4999)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.4ms | Allocations: 6312)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:22:05 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:20
+  Rendered home/_header.html.erb (Duration: 7.9ms | Allocations: 1111)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 4112)
+Completed 200 OK in 27ms (Views: 23.4ms | ActiveRecord: 0.2ms | Allocations: 4569)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-04-05 07:22:10 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 36ms (ActiveRecord: 0.6ms | Allocations: 1759)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:22:10 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.9ms | Allocations: 264)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 3271)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 3721)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:22:13 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 258)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 3270)
+Completed 200 OK in 34ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 3723)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:22:19 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.4ms | Allocations: 533)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1855)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 244)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 5143)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 6794)
+
+
+Started POST "/users/sign_in" for ::1 at 2021-04-05 07:22:21 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"mihndim2016@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "mihndim2016@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 291ms (ActiveRecord: 0.7ms | Allocations: 3346)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:22:21 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:20
+  Rendered home/_header.html.erb (Duration: 3.1ms | Allocations: 1110)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 4128)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.1ms | Allocations: 4584)
+
+
+Started GET "/friends/new" for ::1 at 2021-04-05 07:22:24 -0400
+Processing by FriendsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (Duration: 18.8ms | Allocations: 1696)
+  Rendered friends/new.html.erb within layouts/application (Duration: 24.4ms | Allocations: 2065)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:20
+  Rendered home/_header.html.erb (Duration: 19.1ms | Allocations: 1118)
+  Rendered layout layouts/application.html.erb (Duration: 73.4ms | Allocations: 6196)
+Completed 200 OK in 85ms (Views: 80.2ms | ActiveRecord: 0.6ms | Allocations: 7299)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-04-05 07:22:29 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 0.2ms | Allocations: 1755)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:22:29 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.8ms | Allocations: 258)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 3265)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Allocations: 3716)
+
+
+Started GET "/friends/new" for ::1 at 2021-04-05 07:22:32 -0400
+Processing by FriendsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (Duration: 15.5ms | Allocations: 1235)
+  Rendered friends/new.html.erb within layouts/application (Duration: 17.5ms | Allocations: 1356)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 3.8ms | Allocations: 249)
+  Rendered layout layouts/application.html.erb (Duration: 51.8ms | Allocations: 4556)
+Completed 200 OK in 58ms (Views: 54.9ms | ActiveRecord: 0.0ms | Allocations: 5037)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:22:36 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.8ms | Allocations: 153)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 14.9ms | Allocations: 1009)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.3ms | Allocations: 218)
+  Rendered layout layouts/application.html.erb (Duration: 47.4ms | Allocations: 4202)
+Completed 200 OK in 54ms (Views: 49.9ms | ActiveRecord: 0.0ms | Allocations: 4879)
+
+
+Started GET "/friends/new" for ::1 at 2021-04-05 07:22:44 -0400
+Processing by FriendsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (Duration: 18.9ms | Allocations: 1235)
+  Rendered friends/new.html.erb within layouts/application (Duration: 20.7ms | Allocations: 1355)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 2.9ms | Allocations: 243)
+  Rendered layout layouts/application.html.erb (Duration: 60.7ms | Allocations: 4560)
+Completed 200 OK in 69ms (Views: 64.5ms | ActiveRecord: 0.0ms | Allocations: 5038)
+
+
+Started GET "/friends/new" for ::1 at 2021-04-05 07:23:22 -0400
+Processing by FriendsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (Duration: 8.6ms | Allocations: 1696)
+  Rendered friends/new.html.erb within layouts/application (Duration: 11.3ms | Allocations: 2071)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 583)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 6013)
+Completed 200 OK in 30ms (Views: 26.0ms | ActiveRecord: 0.0ms | Allocations: 7345)
+
+
+Started GET "/users/sign_in" for ::1 at 2021-04-05 07:23:26 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 6.1ms | Allocations: 533)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 25.7ms | Allocations: 1853)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 1.1ms | Allocations: 218)
+  Rendered layout layouts/application.html.erb (Duration: 59.7ms | Allocations: 5800)
+Completed 200 OK in 80ms (Views: 76.8ms | ActiveRecord: 0.0ms | Allocations: 7443)
+
+
+Started POST "/users/sign_in" for ::1 at 2021-04-05 07:23:28 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"mihndim2016@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "mihndim2016@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 291ms (ActiveRecord: 0.3ms | Allocations: 3347)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:23:28 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:17
+  Rendered home/_header.html.erb (Duration: 2.5ms | Allocations: 1121)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 4265)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.1ms | Allocations: 5347)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:23:57 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:17
+  Rendered home/_header.html.erb (Duration: 4.5ms | Allocations: 1472)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 4948)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.1ms | Allocations: 6256)
+
+
+Started GET "/friends/new" for ::1 at 2021-04-05 07:24:03 -0400
+Processing by FriendsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/new.html.erb within layouts/application
+  Rendered friends/_form.html.erb (Duration: 24.8ms | Allocations: 1696)
+  Rendered friends/new.html.erb within layouts/application (Duration: 32.9ms | Allocations: 2066)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/home/_header.html.erb:17
+  Rendered home/_header.html.erb (Duration: 7.3ms | Allocations: 1093)
+  Rendered layout layouts/application.html.erb (Duration: 68.7ms | Allocations: 6857)
+Completed 200 OK in 85ms (Views: 81.2ms | ActiveRecord: 0.2ms | Allocations: 7968)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2021-04-05 07:24:05 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 22ms (ActiveRecord: 0.6ms | Allocations: 1757)
+
+
+Started GET "/" for ::1 at 2021-04-05 07:24:05 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered home/_header.html.erb (Duration: 0.6ms | Allocations: 241)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 3259)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 3712)
+
+
