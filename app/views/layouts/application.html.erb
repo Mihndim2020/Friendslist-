@@ -21,6 +21,11 @@
   <body>
     <%= render 'home/header'%>
     <div class = "container mt-3">
+
+    <%if notice%>
+      <%= render 'layouts/alerts'%>
+    <%end%>
+    
     <%= yield %>
     </div>  
 
